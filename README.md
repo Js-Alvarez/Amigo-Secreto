@@ -6,49 +6,43 @@ Este proyecto es una aplicación web sencilla para realizar un sorteo de "Amigo 
 
 ## 🚀 Características
 
-Permite ingresar hasta 5 nombres únicos.
+**Permite ingresar hasta 5 nombres únicos.**
 
-Valida que solo se ingresen letras y espacios (sin números ni caracteres especiales).
+**Valida que solo se ingresen letras y espacios (sin números ni caracteres especiales).**
 
-No permite nombres duplicados.
+**No permite nombres duplicados.**
 
-Realiza el sorteo aleatorio entre los participantes.
+**Realiza el sorteo aleatorio entre los participantes.**
 
-Muestra una imagen de felicitaciones al sortear.
+**Muestra una imagen de felicitaciones al sortear.**
 
 ## 🛠 Tecnologías utilizadas
 
-HTML5: Estructura de la aplicación.
+<ins>HTML5</ins>: Estructura de la aplicación.
 
-CSS3: Diseño y estilos visuales.
+<ins>CSS3</ins>: Diseño y estilos visuales.
 
-JavaScript (ES6+): Lógica del sorteo y validaciones.
+<ins>JavaScript (ES6+)</ins>: Lógica del sorteo y validaciones.
 
 ## 📌 Instalación y ejecución
 
-*Clona este repositorio:*
+1. Clona este repositorio:
 
-git clone https://js-alvarez.github.io/Amigo-Secreto/
+* git clone https://js-alvarez.github.io/Amigo-Secreto/
 
-*Abre el archivo index.html en tu navegador preferido.*
+2. Abre el archivo index.html en tu navegador preferido.
 
 ## 📝 Instrucciones de uso:
 
-1. Ingresa los nombres de los participantes (máximo 5).
+* Ingresa los nombres de los participantes (máximo 5).
 
-2. Presiona el botón "Añadir" después de escribir cada nombre.
+* Presiona el botón "Añadir" después de escribir cada nombre.
 
-3. Una vez completada la lista, presiona el botón "Sortear amigo".
+* Una vez completada la lista, presiona el botón "Sortear amigo".
 
-*Se mostrará el nombre del amigo secreto sorteado junto con una imagen de felicitaciones.*
-
-## 📷 Capturas de pantalla
+* Se mostrará el nombre del amigo secreto sorteado junto con una imagen de felicitaciones.
 
 ![alt text](image-1.png)
-
-## ⚠️ Posibles problemas y soluciones
-
-
 
 ## Notas
 
