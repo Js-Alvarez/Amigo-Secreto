@@ -6,15 +6,15 @@ Este proyecto es una aplicación web sencilla para realizar un sorteo de "Amigo 
 
 ## 🚀 Características
 
-## **Permite ingresar hasta 5 nombres únicos.**
+ **Permite ingresar hasta 5 nombres únicos.**
 
-## **Valida que solo se ingresen letras y espacios (sin números ni caracteres especiales).**
+**Valida que solo se ingresen letras y espacios (sin números ni caracteres especiales).**
 
-## **No permite nombres duplicados.**
+**No permite nombres duplicados.**
 
-## **Realiza el sorteo aleatorio entre los participantes.**
+**Realiza el sorteo aleatorio entre los participantes.**
 
-## **Muestra una imagen de felicitaciones al sortear.**
+**Muestra una imagen de felicitaciones al sortear.**
 
 ## 🛠 Tecnologías utilizadas
 
