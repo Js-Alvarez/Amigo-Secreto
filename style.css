@@ -181,3 +181,52 @@ ul {
     -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
     mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0) 100%);
 }
+
+@media (max-width:1200px){
+
+    .section-title {
+        font-family: "Inter", serif;
+        font-weight: 100%;
+        color: var(--color-primary);
+        margin: 10px 0;
+        text-align: center;
+        align-items: center;
+    }
+
+    .header-banner img {
+        width: 25%;
+        height: 75%;
+        position: relative;
+        margin-right: 3rem;
+    }
+
+
+    .input-wrapper {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        max-width: 600px;
+        margin-top: 20px;
+    }
+    
+
+    .button-container{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      
+    }
+
+    .button-draw{
+        width:15rem;
+        font-size: 1.4rem;
+        margin: 0 5px 0  2px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .button-draw img {
+        width: 20%;
+    }
+}
