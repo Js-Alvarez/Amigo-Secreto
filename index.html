@@ -14,19 +14,27 @@
     <main class="main-content">
         <header class="header-banner">
             <h1 class="main-title">Amigo Secreto</h1>
-            <img src="./assets/emogi.jpg" alt="Imagen representativa de amigo secreto">
+            <img src="./assets/gif/nav.gif" alt="Imagen representativa de amigo secreto">
         </header>
         
         <section class="input-section">
-            <h2 class="section-title"></h2>
-            <h3></h3>
+            <h2 class="section-title" id="resultado"></h2>
+            <h3 class="mensaje"></h3>
+
             <div class="input-wrapper">
                 <input type="text" id="amigo" class="input-name" placeholder="Escribe un nombre">
                 <button class="button-add" onclick="agregarAmigo()">Añadir</button>
             </div>
+
+            <div class="input-genero">
+                <input type="radio" id="generoM" class="input-generoM" name="genero" value="M"> Masculino
+                <input type="radio" id="generoF" class="input-generoM" name="genero" value="F"> Femenino
+                
+            </div>
+
+            
            
             <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
             <div class="button-container">
                 <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
@@ -42,8 +50,8 @@
             </div>
 
             <div class="Felicitaciones" id="imagenAmigo" style="display: none;">
-                <p id="listaAmisIngresados"></p>
-                <img src="./assets/Emogis para felicdades.jpg" alt="Imagen representativa de amigo secreto">
+                <h2 id="resultadoAmigo"></h2>
+                <img id="gifAmigo" src="" alt="GIF del amigo secreto" style="max-width: 200px; height: auto;">
             </div>
         </section>
 

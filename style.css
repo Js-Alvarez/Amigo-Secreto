@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --color-primary: #46B4E7;
+    --color-primary: #BEF0FF;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
@@ -18,18 +18,22 @@
 }
 
 body {
-    height: 100vh;
+    height: 100%;
     background-color: var(--color-primary);
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .main-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* Banner */
@@ -66,7 +70,7 @@ body {
     font-size: 500%;
     font-family: "Merriweather", serif;
     font-style: italic;
-    color: var(--color-white);
+    color: #990000;
     margin-left: 2rem;
     text-align: center;
 }
@@ -97,6 +101,22 @@ body {
     font-size: 16px;
 }
 
+.input-genero{
+    margin: 20px 0;
+    font-size: 23px;
+
+}
+
+.input-generoM {
+   
+    margin-left: 20px;
+}
+
+
+.input-generoF {
+    margin-right: 10px;
+}
+
 .button-container {
     width: 40%;
     display: flex;
@@ -116,6 +136,48 @@ body {
     font-family: "Merriweather Sans", serif;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+.section-title{
+    color:#0077AA ;
+}
+
+
+/* Contenedor de amigos */
+#listaAmigos {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 10px; 
+    width: 100%;
+    max-width: 60%;
+    overflow: auto;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+/* Estilo para cada item de amigo */
+.amigo-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100px; 
+}
+/* Estilo para la imagen (gif) */
+.amigo-item img {
+    width: 80px; 
+    height: 80px; 
+    border-radius: 10px; /* Bordes redondeados (opcional) */
+}
+
+/* Estilo para el nombre */
+.amigo-name {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    color: var(--color-text);
+    margin-top: 10px;
+    text-transform: capitalize;  /* Hace que la primera letra sea mayúscula */
+}
+
 
 /* Estilos de botón */
 button {
@@ -185,6 +247,9 @@ ul {
 }
 
 @media (max-width:1200px){
+    body{
+        height: auto;
+    }
 
     .section-title {
         font-family: "Inter", serif;
