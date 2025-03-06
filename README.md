@@ -2,7 +2,12 @@
 
 Este proyecto es una aplicación web sencilla para realizar un sorteo de "Amigo Secreto" de manera fácil y divertida. Permite agregar nombres de participantes y luego seleccionar aleatoriamente a un amigo secreto.
 
-![alt text](./assets/play_circle_outline.png)
+<video controls autoplay>
+  <source src="./assets/Videos/Amigo Secreto - Brave 2025-03-05 21-23-49.mp4" type="video/mp4">
+  <source src="./assets/Videos/Amigo Secreto - Brave 2025-03-05 21-23-49.mp4" type="video/webm">
+  <source src="./assets/Videos/Amigo Secreto - Brave 2025-03-05 21-23-49.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
 ## 🚀 Características
 
@@ -42,7 +47,12 @@ Este proyecto es una aplicación web sencilla para realizar un sorteo de "Amigo 
 
 * Se mostrará el nombre del amigo secreto sorteado junto con una imagen de asombro por el nombre sorteado.
 
-![alt text](image-1.png)
+<video controls autoplay>
+  <source src="./assets/Videos/Play.mp4" type="video/mp4">
+  <source src="./assets/Videos/Play.mp4" type="video/webm">
+  <source src="./assets/Videos/Play.mp4" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
 
 ## Notas
 
