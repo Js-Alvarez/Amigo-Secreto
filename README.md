@@ -2,7 +2,8 @@
 
 Este proyecto es una aplicación web sencilla para realizar un sorteo de "Amigo Secreto" de manera fácil y divertida. Permite agregar nombres de participantes y luego seleccionar aleatoriamente a un amigo secreto.
 
-![alt text](./assets/play_circle_outline.png)
+<video src="./assets/play_circle_outline.mp4" autoplay controls>
+  Your browser does not support the video tag.
 
 ## 🚀 Características
 
