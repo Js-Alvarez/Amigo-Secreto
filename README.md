@@ -4,6 +4,7 @@ Este proyecto es una aplicación web sencilla para realizar un sorteo de "Amigo 
 
 <video src="./assets/play_circle_outline.mp4" autoplay controls>
   Your browser does not support the video tag.
+  </video>
 
 ## 🚀 Características
 
